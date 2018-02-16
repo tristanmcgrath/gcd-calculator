@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" type="text/css" href="style.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Gudea:400,700|Open+Sans:300,300i,400,600,700|Satisfy" rel="stylesheet">
+</head>
+<body>
+  <section id="contact-form">
+    <p>GCD Calculator</p>
+    <h1 id="form-header" tabindex="-1">Calculate the GCD between two numbers!</h1>
+    <div class="form-container">
+      <form accept-charset="UTF-8" action="gcd.php" method="POST">
+        <div class="row">
+          <div class="six">
+            <input id="num1" type="text" name="first-number" placeholder="First Number *" required="">
+          </div>
+          <div class="six">
+            <input id="num2" type="text" name="second-number" placeholder="Second Number *" required="">
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="twelve">
+            <input type="submit" value="Calculate!" class="submit-button">
+          </div>
+        </div>
+      </form>
+    </div>
+
+  </section>
+</body>
+</html>
